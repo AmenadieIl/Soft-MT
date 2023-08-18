@@ -1,0 +1,24 @@
+{
+  "name": "mtscript-visual",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.multitabak.MTScript",
+    "productName": "removeCommas Soft MT",
+    "directories": {
+      "output": "distCommas"
+    },
+    "win": {
+      "target": "NSIS"
+    }
+  },
+  "devDependencies": {
+    "electron": "^13.1.7",
+    "electron-builder": "^24.6.3"
+  }
+}

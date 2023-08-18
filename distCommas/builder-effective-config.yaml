@@ -1,0 +1,9 @@
+directories:
+  output: distCommas
+  buildResources: build
+appId: com.multitabak.MTScript
+productName: removeCommas Soft MT
+win:
+  target: NSIS
+files: []
+electronVersion: 13.6.9
